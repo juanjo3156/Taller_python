@@ -58,5 +58,10 @@ print("====SPLIT====")
 texto3 = "perro bravo no se acerque"
 print(texto3.split(" "))
 
+
+#Convierte una lista en una cadena de texto
+lista = ["hola","como estas?"]
+cadena_join = " ".join(lista)
+print(cadena_join)
 #dir nos permite conocer los metodos que se pueden utilizar en disdintos datos
 # print(dir(texto3))
