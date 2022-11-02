@@ -6,7 +6,6 @@ print("======COUNT=======")
 print(texto.count("Bienvenidos"),"\n")
 
 #find() 
-
 print("======FIND========")
 print(texto.find("al"),"\n")
 
