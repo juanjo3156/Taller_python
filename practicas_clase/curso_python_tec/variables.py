@@ -1,0 +1,2 @@
+animal = 'ardilla'
+print(animal)
