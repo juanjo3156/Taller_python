@@ -1,7 +1,8 @@
 #concatenación
 
 #concatenar cadenas 
-print("Hola "+"mundo")
+dato = "hola","mundo","92"
+print("hola","mundo")
 
 mundo = "mundo"
 print("Hola "+mundo)
@@ -30,8 +31,8 @@ print(type(n1))
 
 #concatenacion con format
 print("=======concatenación format=======")
-strinng = "Juan"
-print("Hola mi nombre es {0}".format(strinng))
+cadena = "Juan"
+print("Hola mi nombre es {0}".format(cadena))
 
 
 #Concatenación con f
@@ -40,9 +41,10 @@ print("=======concatenación con f (format)=======")
 #mucho mas eficiente debido a que no hay necesidad de convertir los datos numericos a strings
 #y es mucho mas entendible la sintaxis
 edad = 22
-nombre = f"Juan José tiene {edad} años de edad"
-print(nombre)
+print(f"Juan José tiene {edad} años de edad")
 
+nombre = "Pedro"
+print(f"mi nombre es {nombre} y me gusta el dinero >:D")
 #incluso podemos hacer operaciones matematicas dentro del mismo string
 resultado = f"la suma da como resltado: {5+5}"
 print(resultado)
