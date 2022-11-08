@@ -1,16 +1,13 @@
 #Metodos de analisis 
 texto = "Bienvenidos al imalaya"
-
 #count
-print("======COUNT=======")
-print(texto.count("Bienvenidos"),"\n")
+print(texto.count("Bienvenidos"))
 
 #find() 
-print("======FIND========")
-print(texto.find("al"),"\n")
+
+print(texto.find("al"))
 
 #index()
-print("======INDEX=======")
 print(texto.index("al"),"\n")
 
 #rfind() rindex() lo mismo pero buscan a la inversa

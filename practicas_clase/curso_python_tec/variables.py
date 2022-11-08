@@ -5,5 +5,5 @@ print(animal)
 numero: int = 10
 print(type(numero))
 # Pero esto no es estricto en su contenido
-numero: int = "10"
+# numero: int = "10"
 print(type(numero))
