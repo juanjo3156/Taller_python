@@ -1,11 +1,12 @@
 # Para crear una lista podemos usar la siguiente sintaxis
 
-lista = [1,2,3,4,5]
+lista = [1,True,"Hola mundo",3+4j,(1,2)]
+print(lista)
 colores = ["azul","rojo","verde","amarillo"]
 
-#print(colores)
+#print tupla dentro de una lista
 lista_numeros = list((1,2,3,4,5,6,7))
-print(type(lista_numeros))
+print(lista_numeros)
 
 # Se recomienda definir las listas de la siguiente forma
 lista = list()
