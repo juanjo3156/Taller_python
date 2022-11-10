@@ -67,13 +67,31 @@ print(animales)
 # lista_tipos = [1,3.12,False,"texto"]
 # print(lista_tipos)
 
+# Dada una la siguiente lista
+lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+print(lista)
 
+# Se puede recorrer a la inversa
+print(lista[::-1])
 
+# También funciona en Strings
+texto = "Hola, buenas tardes"
+print(texto[::-1])
 
+# Se puede eliminar elementos de la siguiente forma
+# del lista[2]
+# print(lista)
 
+# También cambiar el valor de los elementos
+# lista[4] = 5
+# print(lista)
 
+# diccionario = {
+#     1: "Uno",
+#     2: "Dos",
+#     3: "Tres"
+# }
+# print(diccionario)
 
-
-
-
-
+# diccionario[4] = "Cuatro"
+# print(diccionario)
