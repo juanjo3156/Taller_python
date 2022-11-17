@@ -1,10 +1,10 @@
 #Metodos de analisis 
 texto = "Bienvenidos al imalaya"
+
 #count
 print(texto.count("Bienvenidos"))
 
 #find() 
-
 print(texto.find("al"))
 
 #index()
